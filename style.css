@@ -61,3 +61,19 @@ p {
   color: #ffffff;
   font-size: 30px;
 }
+
+h2 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 57px;
+  text-align: center;
+}
+
+#primeiro-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#primeiro-container-texto p {
+  color: #000000;
+}

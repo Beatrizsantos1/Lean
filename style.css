@@ -16,8 +16,9 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid red;
   background-color: #ffffff;
+  border: solid #4d77f7;
+  position: fixed;
 }
 #logo {
   width: 40%;
@@ -47,8 +48,18 @@ header {
   justify-content: center;
   flex-direction: column;
   height: 80vh;
-  border: solid red;
 }
+#botao-apresentacao {
+  width: 20%;
+  border-radius: 20%;
+  border: solid #4d77f7;
+  font-family: "Architects Daughter", cursive;
+  font-size: large;
+  cursor: pointer;
+  padding: 1%;
+  margin-top: 2%;
+}
+
 h1 {
   font-family: "Luckiest Guy", cursive;
   color: #4d77f7;
@@ -67,6 +78,31 @@ h2 {
   font-size: 57px;
   text-align: center;
 }
+#lean {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#lean p {
+  color: #000000;
+}
+#video {
+  width: 30%;
+  margin-left: 40px;
+}
+#lean-texto {
+  width: 50%;
+  margin-left: 20%;
+}
+
+#espacamento1,
+#espacamento2,
+#espacamento3,
+#espacamento4,
+#espacamento5,
+#espacamento6 {
+  height: 10vh;
+}
 
 #primeiro-container {
   display: flex;
@@ -79,6 +115,9 @@ h2 {
 }
 #primeiro-container-texto p {
   color: #000000;
+}
+#historia {
+  margin-top: 15px;
 }
 
 #segundo-container {
@@ -96,12 +135,24 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  opacity: 0.4;
+  background-color: darkgrey;
+}
+.topicos:hover {
+  opacity: 1;
+  transition: 2s;
+  cursor: pointer;
+  background-color: #ffffff;
 }
 
 .topicos p {
-  color: #000000;
+  color: darkgrey;
   font-size: 15px;
   text-align: center;
+}
+.topicos p:hover {
+  color: #000000;
+  transition: 2s;
 }
 .topicos img {
   width: 25%;
@@ -116,14 +167,94 @@ h2 {
 }
 
 #terceiro-container {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 #terceiro-container p {
   color: #000000;
-  margin-bottom: 2%;
 }
 
-#beneficio_img a {
+#beneficio_img {
+  width: 60%;
+  height: 70vh;
+}
+#beneficio_img P {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+#sucesso {
+  margin-top: 5%;
+}
+#quarto-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+.sucessos_empresas img {
+  margin-left: 5%;
+  border: solid #4d77f7;
+}
+.sucessos_empresas p {
+  color: #000000;
+  text-align: center;
+}
+.sucessos_empresas h3 {
+  text-align: center;
+  font-size: 250%;
+  color: #4d77f7;
+}
+#quinto-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#foto_grupo {
+  width: 30%;
+  margin-left: 10%;
+}
+#quinto-container p {
+  color: #000000;
+  width: 80%;
+  margin-left: 10%;
+}
+
+footer {
+  width: 100%;
+  height: 34vh;
+  color: white;
+  font-family: "Architects Daughter", cursive;
+  background-color: #4d77f7;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+#footer-links a {
+  color: white;
+  text-decoration: none;
+}
+#voltar_ao_topo {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: #4d77f7;
+}
+#voltar_ao_topo:hover {
+  transition: 25s;
+}
+/*#beneficio_img a {
   position: sticky;
   bottom: 37.7px;
   left: 71%;
@@ -137,4 +268,4 @@ h2 {
 }
 #beneficio_img a:hover {
   background-color: #ffffff;
-}
+}*/

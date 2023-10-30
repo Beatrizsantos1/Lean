@@ -178,7 +178,7 @@ h2 {
 
 #beneficio_img {
   width: 60%;
-  height: 70vh;
+  height: 20vh;
 }
 #beneficio_img P {
   text-align: center;
@@ -187,9 +187,9 @@ a {
   text-decoration: none;
 }
 
-/*#sucesso {
+#sucesso {
   margin-top: 5%;
-}*/
+}
 #quarto-container {
   width: 100%;
   display: grid;
